@@ -5,6 +5,8 @@ using NUnit.Framework;
 
 //tester direkte mot databasen,
 //dårlig idee,
+//Kunne brukt dependecy injection 
+//for mocking, og genrell bedre struktur
 namespace Testing
 {
     public class Tests
