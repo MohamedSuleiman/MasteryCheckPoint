@@ -1,4 +1,4 @@
-﻿public enum Status
+﻿public enum StatusType
 {
     Available, 
     InUse, 
