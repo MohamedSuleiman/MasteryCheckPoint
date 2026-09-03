@@ -12,5 +12,7 @@ namespace Models
         //Kunne ha brukt data annotations for max og min length,
         //men ikke nødevendigvis alle som bruker 8nr
         public int PhoneNumber { get; set; }
+        public ICollection<Trip> Trips { get; set; } = new List<Trip>();
+
     }
 }

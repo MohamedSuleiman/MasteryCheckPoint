@@ -9,5 +9,7 @@
 
         public StatusType Status { get; set;  }
 
+        public ICollection<Trip> Trips { get; set; } = new List<Trip>();
+
     }
 }

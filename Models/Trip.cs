@@ -18,5 +18,9 @@ namespace Models
         public int AppUserId { get; set; }
 
         public AppUser? AppUser { get; set; }
+
+        public int ScooterId { get; set; }
+        
+        public Scooter? Scooter { get; set; }
     }
 }
